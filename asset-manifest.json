@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Tidy/static/css/main.80e2e68e.css",
-    "main.js": "/Tidy/static/js/main.0c8d2936.js",
-    "static/js/453.31ca3b74.chunk.js": "/Tidy/static/js/453.31ca3b74.chunk.js",
-    "index.html": "/Tidy/index.html",
-    "main.80e2e68e.css.map": "/Tidy/static/css/main.80e2e68e.css.map",
-    "main.0c8d2936.js.map": "/Tidy/static/js/main.0c8d2936.js.map",
-    "453.31ca3b74.chunk.js.map": "/Tidy/static/js/453.31ca3b74.chunk.js.map"
+    "main.css": "/tidy/static/css/main.80e2e68e.css",
+    "main.js": "/tidy/static/js/main.96f72758.js",
+    "static/js/453.31ca3b74.chunk.js": "/tidy/static/js/453.31ca3b74.chunk.js",
+    "index.html": "/tidy/index.html",
+    "main.80e2e68e.css.map": "/tidy/static/css/main.80e2e68e.css.map",
+    "main.96f72758.js.map": "/tidy/static/js/main.96f72758.js.map",
+    "453.31ca3b74.chunk.js.map": "/tidy/static/js/453.31ca3b74.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.80e2e68e.css",
-    "static/js/main.0c8d2936.js"
+    "static/js/main.96f72758.js"
   ]
 }
