@@ -4,7 +4,7 @@ function Tarefas() {
   const [novaTarefa, setNovaTarefa] = useState("");
   const [tarefas, setTarefas] = useState<string[]>([]);
 
-  const urlWebApp = "https://script.google.com/macros/s/AKfycbzrlbxnOiywc_21IXgT3aTkv3itjYc-2-DkyFrVnEGULWhpgPqV3PJ6v4nSaP-y-uDD/exec";
+  const urlWebApp = "https://script.google.com/macros/s/AKfycbymP4RucbyEVSxtXipFyZuY2srWB_ur1STOHxGHp1tMouW2yX5TEwPJwmLgOrC1CPx8/exec";
 
   const adicionarTarefa = async () => {
     if (!novaTarefa) return;
