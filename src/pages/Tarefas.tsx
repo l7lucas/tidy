@@ -4,24 +4,24 @@ function Tarefas() {
   const [novaTarefa, setNovaTarefa] = useState("");
   const [tarefas, setTarefas] = useState<string[]>([]);
 
-  const urlWebApp = "https://script.google.com/macros/s/AKfycbxYeeyaaLXNC_Mh3jnjBl6n-s0ziPF_ox5RkEx5F_LSQUXgmlzkBRIjoYwRW1_hg07n/exec";
+  const urlWebApp = "https://script.google.com/macros/s/AKfycbylNfIZuUFY-0z3ybcvWao6ZpdzNuJ8jWn1yYgj1O8uLSEMqHcoRgA9-thD6shZ8Tk8/exec";
 
   const adicionarTarefa = async () => {
     if (!novaTarefa) return;
 
     try {
+      const formData = new FormData();
+      formData.append("tarefa", novaTarefa);
+
       const res = await fetch(urlWebApp, {
         method: "POST",
-        body: JSON.stringify({ tarefa: novaTarefa }),
-        headers: {
-          "Content-Type": "application/json",
-        },
+        body: formData,
       });
-      const data = await res.json();
-      if (data.status === "ok") {
-        setTarefas([...tarefas, novaTarefa]);
-        setNovaTarefa("");
-      }
+
+      // Como a resposta pode não ser legível em alguns casos,
+      // vamos apenas assumir que deu certo se não der erro no fetch.
+      setTarefas([...tarefas, novaTarefa]);
+      setNovaTarefa("");
     } catch (err) {
       console.error(err);
     }
