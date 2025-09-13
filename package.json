@@ -2,7 +2,7 @@
   "name": "tidy",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://l7lucas.github.io/Tidy",
+  "homepage": "https://l7lucas.github.io/tidy",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.8.0",
