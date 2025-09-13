@@ -52,18 +52,7 @@
   color: #aaa; /* cinza claro no hover */
 }
 
-.menu-toggle {
-  position: absolute;
-  top: 60px; /* empurra pra baixo, abaixo da navbar */
-  left: 10px;
-  background: #1e1e1e;
-  border: none;
-  color: #fff;
-  font-size: 20px;
-  padding: 8px;
-  border-radius: 6px;
-  cursor: pointer;
-}
+
 
 .sidebar {
   background-color: #1a1a1a;
